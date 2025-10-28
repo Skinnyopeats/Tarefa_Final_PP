@@ -75,7 +75,7 @@ int main() {
     double *altura = (double *)malloc(N * sizeof(double));
     double *peso = (double *)malloc(N * sizeof(double));
 
-    FILE *f = fopen("dados.txt", "r");
+    FILE *f = fopen("dados_intervalados.txt", "r");
     if (f == NULL) {
         printf("Erro ao abrir o arquivo de dados.\n");
         return 1;
